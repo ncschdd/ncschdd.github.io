@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	font-family:  Trebuchet MS;
+	background-color: #cccccc;
 } 
 
 .headerImage {
@@ -11,6 +12,12 @@ body {
 	background-size: cover;
 	position: relative;
 	height: 500px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    left: 25px;
 }
 
 .headerText {
