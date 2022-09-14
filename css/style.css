@@ -16,8 +16,8 @@ body {
 
 .bottom {
     position: absolute;
-    bottom: 0px;
-    left: 25px;
+    bottom: 15px;
+    left: 15px;
 }
 
 .headerText {
