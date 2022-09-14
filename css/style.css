@@ -15,7 +15,7 @@ body {
 } 
 
 .headerImage {
-	background-image: url("https://github.com/ncschdd/ncschdd.github.io/blob/9a94b4a9a6b21c97159ce8ddcccd37be3473fdca/images/img001.jpg");
+	background-image: url("images/img001.jpg");
 	background-color: #cccccc; /*Wenn image nicht gefunden wird */
 	background-position: center;
 	background-repeat: no-repeat;
