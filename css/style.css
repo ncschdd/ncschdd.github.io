@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-	font-family:  Trebuchet MS;
+	/* font-family:  trebuchet ms, sans-serif; */
+	font-family: andale mono, monospace;
 	background-color: #3F556E;
 } 
 
