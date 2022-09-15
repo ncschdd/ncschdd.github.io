@@ -30,6 +30,31 @@ body {
   color: white;
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #ABBCCF;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ccc;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #1c2631;
+  color: white;
+}
+
+
 /*
 a { 
 	color: #9BDB18; 
