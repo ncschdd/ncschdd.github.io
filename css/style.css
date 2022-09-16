@@ -13,6 +13,16 @@ body {
 	background-size: cover;
 	position: relative;
 	height: 300px;
+	margin-top: 15px;	/* Add a top margin to avoid content overlay */
+}
+
+.headerText {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .bottom {
@@ -26,20 +36,16 @@ body {
 	font-size: 11px;
 }
 
-.headerText {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
+/* The navigation bar */
 .topnav {
   overflow: hidden;
   background-color: #ABBCCF;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
 }
 
+/* Links inside the navbar */
 .topnav a {
   float: left;
   color: #ffffff;
@@ -49,11 +55,13 @@ body {
   font-size: 14px;
 }
 
+/* Change background on mouse-over */
 .topnav a:hover {
   background-color: #ccc;
   color: #1c2631;
 }
 
+/* Change background on active */
 .topnav a.active {
   background-color: #1c2631;
   color: white;
