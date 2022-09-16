@@ -40,6 +40,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #ABBCCF;
+  font-weight: bold;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -50,21 +51,24 @@ body {
   float: left;
   color: #ffffff;
   text-align: center;
-  padding: 12px 14px;
   text-decoration: none;
+  padding: 12px 14px;
   font-size: 14px;
+  font-weight: bold;
 }
 
 /* Change background on mouse-over */
 .topnav a:hover {
   background-color: #ccc;
   color: #1c2631;
+  font-weight: bold;
 }
 
 /* Change background on active */
 .topnav a.active {
   background-color: #1c2631;
   color: white;
+  font-weight: bold;
 }
 
 
