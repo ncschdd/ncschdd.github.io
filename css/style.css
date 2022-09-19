@@ -1,3 +1,12 @@
+/* 
+1. #FFF
+2. #ABBCCF
+3. #6A88AA
+4. #3F556E
+5. #1C2631
+6. #CCC
+*/
+
 body {
 	margin: 0;
 	font-family:  trebuchet ms, sans-serif;
@@ -7,7 +16,7 @@ body {
 
 .headerImage {
 	background-image: url("https://ncschdd.github.io/css/images/img001.jpg");
-	background-color: #ccc; /*Wenn image nicht gefunden wird */
+	background-color: #CCC; /*Wenn image nicht gefunden wird */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,7 +31,7 @@ body {
   top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #FFF;
 }
 
 .bottom {
@@ -32,7 +41,7 @@ body {
 }
 
 .bottom a { 
-	color: #ccc;
+	color: #CCC;
 	font-size: 11px;
 }
 
@@ -49,7 +58,7 @@ body {
 /* Links inside the navbar */
 .topnav a {
   float: left;
-  color: #ffffff;
+  color: #FFF;
   text-align: center;
   text-decoration: none;
   padding: 12px 14px;
@@ -59,21 +68,21 @@ body {
 
 /* Change background on mouse-over */
 .topnav a:hover {
-  background-color: #ccc;
-  color: #1c2631;
+  background-color: #CCC;
+  color: #1C2631;
   font-weight: bold;
 }
 
 /* Change background on active */
 .topnav a.active {
-  background-color: #1c2631;
-  color: white;
+  background-color: #1C2631;
+  color: #FFF;
   font-weight: bold;
 }
 
 .cont	{
-		color:#fff;
-		background-color:#ABBCCF;
+		color:#FFF;
+		background-color:#6A88AA;
 		position:relative;
 		top: 35px;
 		/* width:46%; */
@@ -84,7 +93,6 @@ body {
 		padding-top:2%;
 		padding-bottom:2%;
 }
-
 
 /*
 a { 
